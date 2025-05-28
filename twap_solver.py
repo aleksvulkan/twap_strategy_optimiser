@@ -66,15 +66,9 @@ class TWAPSolver:
         return self.actions
 
     def get_cumulative_execution(self):
-        """
-        Return cumulative execution over time.
-        """
         return np.cumsum(self.actions)
 
     def get_execution_times(self):
-        """
-        Return time steps corresponding to the actions.
-        """
         return np.linspace(0, self.T, self.N, endpoint=False)
 
 
