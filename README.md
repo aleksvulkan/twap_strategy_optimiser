@@ -35,7 +35,7 @@ Dynamic Value Function:
 
 $H(t, X_t, Q_t, S_t) = \sup_{\nu} \mathbb{E} [X_T + Q_T(S_T - \alpha Q_T) \vert \mathrm{F}]$
 
-Where \mathrm{F} is the filtration at time t. 
+Where $\mathrm{F}$ is the filtration at time t. 
 
 Using the Ansatz: 
 
