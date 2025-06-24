@@ -31,4 +31,14 @@ Dynamic Value Function:
 
 $H(t, X_t, Q_t, S_t) = \sup_{\nu} \mathbb{E} [X_T + Q_T(S_T - \alpha Q_T) \vert \mathrm{F}]$
 
+Where \mathrm{F} is the filtration at time t. 
+
+Using the Ansatz: 
+
+$H(t, X, Q, S) = X + QS + h(t,Q)$
+
+We arrive at the optimal control $\nu^{*}$.
+
+$\nu^{*}(t,Q) = \frac{-(2\alpha - b)}{2k + (2\alpha - b)(T-t)} Q$
+
 
