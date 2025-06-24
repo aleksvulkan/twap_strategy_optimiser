@@ -29,6 +29,6 @@ $J^{\nu}(X_0, Q_0, S_0) = \mathbb{E} [ X_T + Q_T(S_T - \alpha Q_T)], \alpha > 0$
 
 Dynamic Value Function:
 
-$H(t, X_t, Q_t, S_t) = \sup_{\nu} \mathbb{E} [X_T + Q_T(S_T - \alpha Q_T) \mvert \mathrm{F}]$
+$H(t, X_t, Q_t, S_t) = \sup_{\nu} \mathbb{E} [X_T + Q_T(S_T - \alpha Q_T) \vert \mathrm{F}]$
 
 
