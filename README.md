@@ -41,4 +41,16 @@ We arrive at the optimal control $\nu^{*}$.
 
 $\nu^{*}(t,Q) = \frac{-(2\alpha - b)}{2k + (2\alpha - b)(T-t)} Q$
 
+After substituing $\nu^{8}$ back into $dQ_t = \nu_t dt$,
+
+we get,
+
+$Q_t = \frac{2k + (2\alpha-b)(T-t)}{2k+(2\alpha-b)T}Q_0$.
+
+After some mental gymnastics, consider the limit when $\alpha -> infinity$.
+
+$Q_t approx = \frac{T-t}{T}Q_0$
+
+
+
 
