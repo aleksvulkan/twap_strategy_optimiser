@@ -57,9 +57,11 @@ $Q_t approx = \frac{T-t}{T}Q_0$
 
 Prerequisites:
   - Python 3.8+
+
 References:
   - Almgren, Robert, and Neil Chriss. "Optimal execution of portfolio transactions." Journal of Risk 3 (2001): 5-40.
   - Donnelly, Ryan Francis, Optimal Execution: A Review (December 19, 2022). Available at SSRN: https://ssrn.com/abstract=4307177 or http://dx.doi.org/10.2139/ssrn.4307177.
+
 Module:
   - Stochastic Control and Applications to Algorithmic Trading by Dr. Ryan Donnelly 
 
