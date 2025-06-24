@@ -45,7 +45,7 @@ We arrive at the optimal control $\nu^{*}$.
 
 $\nu^{*}(t,Q) = \frac{-(2\alpha - b)}{2k + (2\alpha - b)(T-t)} Q$
 
-After substituing $\nu^{8}$ back into $dQ_t = \nu_t dt$,
+After substituing $\nu^{*}$ back into $dQ_t = \nu_t^{*} dt$,
 
 we get,
 
