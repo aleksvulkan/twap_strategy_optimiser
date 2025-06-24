@@ -1,4 +1,4 @@
-# twap_strategy_optimiser
+# twap_strategy_optimiser_app
 This is an interactive Plotly Dash web application that computes and visualises an optimised Time-Weighted Average Price (TWAP) execution schedule. The optimiser is grounded in stochastic control theory subject to fast trading and terminal inventory penalties, and dynamically calculates how much of an order to execute at each time interval to minimise expected costs.
 This web app provides an interactive interface to visualise and explore a Time-Weighted Average Price (TWAP) execution strategy optimised via stochastic control and dynamic programming. It is built using Plotly Dash and is designed to assist traders, quants, and researchers in understanding optimal execution schedules under stochastic price dynamics.
 
@@ -13,6 +13,10 @@ Features include:
   - Parameter customisation: Time Horizon, Inventory Level, Volatility, Impact Coefficients, etc.
 
 Mathematical Model:
+  -  A stochastic price process
+  -  Market impact, execution cost (trading speed penalty)
+  -  ObjectiveL Minimise expected total execution cost
+  -  Contraint: Inventory volume and terminal penalty
 
 Consider Price Dynamics:
 
@@ -50,6 +54,14 @@ $Q_t = \frac{2k + (2\alpha-b)(T-t)}{2k+(2\alpha-b)T}Q_0$.
 After some mental gymnastics, consider the limit when $\alpha -> infinity$.
 
 $Q_t approx = \frac{T-t}{T}Q_0$
+
+Prerequisites:
+  - Python 3.8+
+References:
+  - Almgren, Robert, and Neil Chriss. "Optimal execution of portfolio transactions." Journal of Risk 3 (2001): 5-40.
+  - Donnelly, Ryan Francis, Optimal Execution: A Review (December 19, 2022). Available at SSRN: https://ssrn.com/abstract=4307177 or http://dx.doi.org/10.2139/ssrn.4307177.
+Module:
+  - Stochastic Control and Applications to Algorithmic Trading by Dr. Ryan Donnelly 
 
 
 
