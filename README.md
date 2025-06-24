@@ -15,10 +15,16 @@ Features include:
 Mathematical Model:
 
 Consider Price Dynamics:
+
 $dQ_t = \nu_t dt$,
 
 $dS_t = b\nu_t dt + \sigma dW_t$,
 
 $dX_t = -(S_t + k\nu_t)\nu_t dt$
+
+
+Performance Criterion:
+
+$J^{\nu}(X_0, Q_0, S_0) = \mathbb{E} [ X_T + Q_T(S_T - \alpha Q_T)$
 
 
