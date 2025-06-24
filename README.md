@@ -15,7 +15,7 @@ Features include:
 Mathematical Model:
   -  A stochastic price process
   -  Market impact, execution cost (trading speed penalty)
-  -  ObjectiveL Minimise expected total execution cost
+  -  Objective: Minimise expected total execution cost
   -  Contraint: Inventory volume and terminal penalty
 
 Consider Price Dynamics:
