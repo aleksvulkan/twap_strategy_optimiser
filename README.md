@@ -16,7 +16,9 @@ Mathematical Model:
 
 Consider Price Dynamics:
 $dQ_t = \nu_t dt$,
+
 $dS_t = b\nu_t dt + \sigma dW_t$,
+
 $dX_t = -(S_t + k\nu_t)\nu_t dt$
 
 
