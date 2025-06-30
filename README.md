@@ -53,6 +53,8 @@ $Q_t = \frac{2k + (2\alpha-b)(T-t)}{2k+(2\alpha-b)T}Q_0$.
 
 After some mental gymnastics, consider the limit when $\alpha -> infinity$.
 
+We finally arrive at:
+
 $Q_t approx = \frac{T-t}{T}Q_0$
 
 Prerequisites:
